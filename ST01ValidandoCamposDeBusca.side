@@ -1,0 +1,694 @@
+{
+  "id": "e044ee90-bc3d-40a3-880f-44d568bcdcf7",
+  "version": "2.0",
+  "name": "ST01ValidandoCamposDeBusca",
+  "url": "https://www.webmotors.com.br/",
+  "tests": [{
+    "id": "2d35a6b4-214a-42a0-944c-66c7305f74df",
+    "name": "CT01AcessandoHome",
+    "commands": [{
+      "id": "4f1a5e79-7bf4-4ea7-b2ae-7c43d5f80414",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e23160d9-fb16-4241-bd31-8f77c37b6225",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "beba366a-c759-4dcc-9587-7b5076b09b88",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Honda City"
+    }, {
+      "id": "e74f3ca2-121d-4730-9fac-bea1151df499",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__result__name",
+      "targets": [
+        ["css=.SearchBar__results__result__name", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92ba470e-a55c-42e7-b8a6-f29b28cb3df8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.NavBar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90e1403f-232d-4e96-88cb-8f6d1ee04b6f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed2b3b15-dd84-4361-b092-4af49e51c0f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO",
+      "targets": [
+        ["linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO", "linkText"],
+        ["css=.Filters__line:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[2]/div/div[4]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city/15-ex-16v-flex-4p-automatico')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "abb3bf90-f79c-40b3-8b8e-5a535816e3f1",
+      "comment": "",
+      "command": "//Carro não existente",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06c4ab19-e2a6-4534-b83d-1a7df93b5c15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ed1bf37-becd-46bc-9efa-d0d5c8181d81",
+      "comment": "",
+      "command": "click",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c71af71a-cb44-4056-ace7-50792abc34d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "carro"
+    }, {
+      "id": "4aade041-6bea-4a21-afe0-dfe1d8ae388a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SearchBar__results__result",
+      "targets": [
+        ["css=.SearchBar__results__result", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Não encontramos este termo, verifique a ortografia"
+    }, {
+      "id": "12deed9c-6172-4479-8d23-dd88fbf18683",
+      "comment": "",
+      "command": "//Informando apenas a marca",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03d1bdc4-4528-4e0c-8bba-85534bdf5aea",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32ba49c4-5fbc-4068-adcf-7663c2e0af8e",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [
+        ["id=searchBar", "id"],
+        ["css=#searchBar", "css:finder"],
+        ["xpath=//input[@id='searchBar']", "xpath:attributes"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Toyota"
+    }, {
+      "id": "28815c1f-d919-4814-babf-5fb787b9d230",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__result:nth-child(3) strong",
+      "targets": [
+        ["css=.SearchBar__results__result:nth-child(3) strong", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a[2]/div[2]/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d03c55ce-36da-4f63-8387-1921d6f7debd",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-search",
+      "targets": [
+        ["css=.title-search", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Toyota Corolla Novos e Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9deba4c8-9364-4923-ad94-e05c07334bde",
+      "comment": "",
+      "command": "// Informando apenas o modelo",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6c5687d-a033-4f14-831b-0f54cb43991a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14a11f0f-a9cc-46db-923f-594b79810e6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [],
+      "value": "Corolla"
+    }, {
+      "id": "7046e676-0965-4888-9fe6-ecdde5ccd352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.SearchBar__results__result:nth-child(3) strong",
+      "targets": [
+        ["css=.SearchBar__results__result:nth-child(3) strong", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/a[2]/div[2]/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/div[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e045dd2a-d9b0-4215-aae9-a2e8d8d8d076",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-search",
+      "targets": [
+        ["css=.title-search", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Toyota Corolla Novos e Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4615c4-2967-4f1b-8fde-279a1a3ab611",
+      "comment": "",
+      "command": "// Informando duas ou mais marcas diferente",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02714c2e-47a1-498d-9d6f-8f04360d7071",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60eb70d5-efd8-4626-8c5b-2656a736ff71",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [],
+      "value": "Toyota Honda"
+    }, {
+      "id": "bc22777d-bce7-485f-960e-f0fd666d4309",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SearchBar__results__result",
+      "targets": [
+        ["css=.SearchBar__results__result", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Não encontramos este termo, verifique a ortografia"
+    }, {
+      "id": "18d5241e-4ced-495f-ac1d-503dfa890290",
+      "comment": "",
+      "command": "// Informando dois ou mais modelos diferente",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83fdbfeb-1162-4f7e-aa52-88a1f5bc961a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bccbe528-28d9-4c82-a3e3-7ef921d3a7d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=searchBar",
+      "targets": [],
+      "value": "Corolla City"
+    }, {
+      "id": "6dc39c3b-17b8-437d-91ef-0c74307c0c3a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.SearchBar__results__result",
+      "targets": [
+        ["css=.SearchBar__results__result", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": "Não encontramos este termo, verifique a ortografia"
+    }, {
+      "id": "53d5f0b0-2ab2-435b-94f0-637eaa22b5d8",
+      "comment": "",
+      "command": "//Não informar marca ou modelo",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75a87468-6cac-4ecf-9b8d-bc13bc6a27ce",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f97eea7c-1299-40f2-8cdb-9c08e9959895",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Button--red-home",
+      "targets": [
+        ["css=.Button--red-home", "css:finder"],
+        ["xpath=//div[@id='WhiteBox']/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/carros/estoque?idcmpint=t1:c17:m07:webmotors:busca::verofertas')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9755507-6a14-4617-a167-f11ba1bd82ce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-search",
+      "targets": [
+        ["css=.title-search", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Toyota Corolla Novos e Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5f6cb067-1e02-4be3-b239-05b6381dca63",
+    "name": "CT02AcessandoResultadoDePesquisa",
+    "commands": [{
+      "id": "2e64e432-4204-45d9-bae3-388758fcde5c",
+      "comment": "",
+      "command": "//Pesquisando por localização",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23d83ed3-701d-4e9b-8afe-586c581c44b9",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque?tipoveiculo=carros&estadocidade=estoque",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45161446-5adf-4f7f-a96f-71dcfa36d87c",
+      "comment": "",
+      "command": "click",
+      "target": "id=locationAutoComplete",
+      "targets": [
+        ["id=locationAutoComplete", "id"],
+        ["css=#locationAutoComplete", "css:finder"],
+        ["xpath=//input[@id='locationAutoComplete']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9f5ac6e-5eb4-445e-84be-badf06499cdf",
+      "comment": "",
+      "command": "type",
+      "target": "id=locationAutoComplete",
+      "targets": [
+        ["id=locationAutoComplete", "id"],
+        ["css=#locationAutoComplete", "css:finder"],
+        ["xpath=//input[@id='locationAutoComplete']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Bahia"
+    }, {
+      "id": "f4f1b207-923b-459f-9fae-b54ee27e1f6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AutoComplete-result-name",
+      "targets": [
+        ["css=.AutoComplete-result-name", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c88159e0-25e2-4fa5-bded-8002ecfa6d62",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-search",
+      "targets": [
+        ["css=.title-search", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Carros em Bahia - Novos e Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cd47ff3-f85c-4bb6-a87d-3575b84be335",
+      "comment": "",
+      "command": "//Pesquisando marca do carro",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "779dbaf2-3c48-4dfe-b6c4-f26c82e15cad",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque?tipoveiculo=carros&estadocidade=estoque",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "79cb7418-998e-499a-b951-132eb6d3a9e8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters__container__group:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a9f69f1-5688-448b-9ee7-727395f877f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardMake:nth-child(4) > .CardMake__name-make",
+      "targets": [
+        ["css=.CardMake:nth-child(4) > .CardMake__name-make", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div/div/a[4]/small", "xpath:idRelative"],
+        ["xpath=//a[4]/small", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7384f4d2-88ae-4fa1-800e-f28304d5a36b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0d7de1c-d2b6-4a77-9717-b595a162151e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CITY",
+      "targets": [
+        ["linkText=CITY", "linkText"],
+        ["css=.Filters__line__result:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'CITY')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[3]/div/div[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city')]", "xpath:href"],
+        ["xpath=//div[5]/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'CITY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "368ddb2b-92e0-45a4-b4b4-8a9fdafa562f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div[2]/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d85c60e-bf6e-4a36-b768-205885152c0d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO",
+      "targets": [
+        ["linkText=1.5 EX 16V FLEX 4P AUTOMÁTICO", "linkText"],
+        ["css=.Filters__line:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:link"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div[2]/div/div[4]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.webmotors.com.br/carros/estoque/honda/city/15-ex-16v-flex-4p-automatico')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'1.5 EX 16V FLEX 4P AUTOMÁTICO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "619ae4f7-ee85-4708-ad14-d6ef356d4fb1",
+      "comment": "",
+      "command": "//Selecionando carros usados",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "225412a1-9c13-4280-b2fa-0cd7b8b96095",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque?tipoveiculo=carros&estadocidade=estoque",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2c84774-f7f9-4e6d-8c72-2c13915adfc9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters__container__group:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8377638-eda4-401a-bf7f-ef37987888f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__container__group:nth-child(6) .Checkbox:nth-child(2)",
+      "targets": [
+        ["css=.Filters__container__group:nth-child(6) .Checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[6]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c691823-bcf0-413f-a7ba-f51757a898f3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.title-search",
+      "targets": [
+        ["css=.title-search", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Carros Usados e Seminovos em Todo o Brasil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "744a5d62-b8c8-48f3-a5a1-ac15bc08156a",
+    "name": "CT03AcessandoDeterminadaLoja",
+    "commands": [{
+      "id": "e6eae094-312a-4847-a6ed-341283b4f300",
+      "comment": "",
+      "command": "//Pesquisando marca do carro",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7280173-ef98-4884-ad9e-c6a9ea14db5f",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque/?IdRevendedor=3834764&TipoVeiculo=carros&anunciante=concession%C3%A1ria%7Cloja",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75bbe085-f873-4923-83a1-2c93044ee5d2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters__container__group:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a320d03-4f3f-4cec-9b04-fd9f3fc688a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CardMake:nth-child(4) > .CardMake__name-make",
+      "targets": [
+        ["css=.CardMake:nth-child(4) > .CardMake__name-make", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div/div/a[4]/small", "xpath:idRelative"],
+        ["xpath=//a[4]/small", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "536fb7d6-beec-43ab-8bfa-d72c89aa88ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__line--gray",
+      "targets": [
+        ["css=.Filters__line--gray", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[3]/div/div/div[2]/div[2]/div/form/div[5]/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "359d2104-3569-4e64-a95a-0d110f750825",
+      "comment": "",
+      "command": "//Pesquisando por localização",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f16fe40-51d3-4d0a-bdcc-72a498849f8a",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque/?IdRevendedor=3834764&TipoVeiculo=carros&anunciante=concession%C3%A1ria%7Cloja",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afc33ce7-e84b-4e94-9c5d-714c1b1c8d53",
+      "comment": "",
+      "command": "click",
+      "target": "id=locationAutoComplete",
+      "targets": [
+        ["id=locationAutoComplete", "id"],
+        ["css=#locationAutoComplete", "css:finder"],
+        ["xpath=//input[@id='locationAutoComplete']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed1ee8e-3078-4064-ad4f-cc2c2c7f2ab9",
+      "comment": "",
+      "command": "type",
+      "target": "id=locationAutoComplete",
+      "targets": [
+        ["id=locationAutoComplete", "id"],
+        ["css=#locationAutoComplete", "css:finder"],
+        ["xpath=//input[@id='locationAutoComplete']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "São Paulo"
+    }, {
+      "id": "3dacce4c-2a24-4385-99cd-4128ca3046e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AutoComplete-result-name",
+      "targets": [
+        ["css=.AutoComplete-result-name", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57a5a62-cc01-4cd2-8411-d105721df155",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.Search-result--container-right",
+      "targets": [
+        ["css=.Search-result--container-right", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[4]", "xpath:idRelative"],
+        ["xpath=//main/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b78b945-52d6-445e-b428-9c9367b7b7dc",
+      "comment": "",
+      "command": "//Selecionando carros usados",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1331ebba-c9b2-42c0-91bc-eef41214305a",
+      "comment": "",
+      "command": "open",
+      "target": "/carros/estoque/?IdRevendedor=3834764&TipoVeiculo=carros&anunciante=concession%C3%A1ria%7Cloja",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d4aafc5-36ed-45c6-9a45-ac359783284f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters__container__group:nth-child(1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5bcc1e9-f512-4295-ba69-7423163b4502",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters__container__group:nth-child(6) .Checkbox:nth-child(2)",
+      "targets": [
+        ["css=.Filters__container__group:nth-child(6) .Checkbox:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[2]/div/div/div[2]/div[2]/div/form/div[6]/div[2]/label[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/label[2]", "xpath:position"],
+        ["xpath=//label[contains(.,'Usados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "481c4fe9-8fe4-4496-b0ba-033fe6d986ce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.Search-result--container-right",
+      "targets": [
+        ["css=.Search-result--container-right", "css:finder"],
+        ["xpath=//div[@id='root']/main/div/div[4]", "xpath:idRelative"],
+        ["xpath=//main/div/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4998085c-58b9-4707-8050-8563358fbccf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.webmotors.com.br/", "https://www.webmotors.com.br/carros/estoque?tipoveiculo=carros&estadocidade=estoque"],
+  "plugins": []
+}

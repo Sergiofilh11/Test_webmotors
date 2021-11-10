@@ -1,0 +1,70 @@
+	// Home Webmotors
+
+#Carro existente
+Dado que acesso a home
+Quando adiciono marca e modelo na busca e submeto
+Então devo ser redirecionado para o resultado da busca
+
+#Carro não existente
+Dado que acesso a home
+Quando adiciono uma marca e modelo não existente
+Então deve mostrar mensagem que "Não encontramos este termo"
+
+#Informando apenas a marca
+Dado que acesso a home
+Quando adiciono apenas a marca
+Então devo ser redirecionado para resultado de todos veículos dessa da marca adicionada
+
+#Informando apenas o modelo
+Dado que acesso a home
+Quando adiciono apenas um modelo de um carro
+Então deve completar com a marca desse modelo e ser redirecionado para o resultado desta busca
+
+#Informando duas ou mais marcas diferente
+Dado que acesso a home
+Quando adiciono duas ou mais marcas diferente
+Então deve mostrar mensagem que "Não encontramos este termo"
+
+#Informando dois ou mais modelos diferente
+Dado que acesso a home
+Quando adiciono dois ou mais modelos diferente
+Então deve mostrar mensagem que "Não encontramos este termo"
+
+#Não informar marca ou modelo
+Dado que acesso a home
+Quando submeto a minha pesquisa sem informar marca ou modelo
+Então devo ser redirecionado para o resultado de todos os veículos
+
+	// Resultado de Busca
+
+#Pesquisando por localização
+Dado que acesso o resultado de busca
+Quando digito um estado ou cidade
+Então deve mostrar todos veículos dessa localização
+
+#Pesquisando marca do carro
+Dado que acesso o resultado de busca
+Quando seleciono a marca desejada
+Então deve mostrar todos os veículos dessa marca e mostrar a opção de selecionar modelo e após isso selecionar a versão
+
+#Selecionando carros usados
+Dado que acesso o resultade de busca
+Quando seleciono carros usados
+Então deve mostrar todos os veículos usados
+
+	// Estoque de loja
+
+#Pesquisando marca do carro
+Dado que acesso o estoque de loja
+Quando seleciono a marca desejada
+Então deve mostrar todos os veículos dessa marca e mostrar a opção de selecionar modelo e após isso selecionar a versão
+
+#Pesquisando por localização
+Dado que acesso o estoque de loja
+Quando digito um estado ou cidade
+Então deve mostrar todos veículos dessa localização
+
+#Selecionando carros usados
+Dado que acesso o estoque de loja
+Quando seleciono carros usados
+Então deve mostrar todos os veículos usados
